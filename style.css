@@ -17,6 +17,12 @@ body {
     overflow-x: hidden;
     background-color: var(--white);
 }
+.profile-img {
+    width: 350px;          /* Set the width you want */
+    height: 350px;         /* Set the height you want */
+    border-radius: 50%;    /* Make it circular */
+    object-fit: cover;     /* Ensure the image covers the box without distortion */
+}
 img { 
     max-width: 85%; 
     vertical-align: middle; 
